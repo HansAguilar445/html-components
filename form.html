@@ -22,7 +22,7 @@
             <label for="city">City:</label>
             <input type="text" name="city" size="30" maxlength="30" placeholder="Please enter your city" id="city" />
 
-            <p> <label for="shipping">Please Choose A Shipping Method:</label> </p>
+            <p><b> <label for="shipping">Please Choose A Shipping Method:</label></b> </p>
             <select name="shipping" id="shipping">
                 <option value="standard">Standard Shipping</option>
                 <option value="one-day">One-Day Shipping</option>
@@ -30,13 +30,13 @@
             </select>
             <br />
 
-            <p> Please Select A Payment Method: </p>
+            <p><i> Please Select A Payment Method: </i> </p>
             <label> <input type="radio" name="payment-methods" value="paypal" checked="true" /> PayPal </label>
             <label> <input type="radio" name="payment-methods" value="debit"/> Debit Card </label>
             <label> <input type="radio" name="payment-methods" value="credit"/> Credit Card </label>
             <br /><br />
             
-            <label for="comments">Additional Comments:</label>
+            <label for="comments"><u>Additional Comments:</u></label>
             <br />
             <textarea rows="4" cols="40" name="comments" id="comments"></textarea>
             <br /><br />
@@ -48,6 +48,14 @@
             <br /><br />
 
             <input type="submit" />
+            <!-- 
+                The top text input areas are for users to input the location they want the package shipped.
+                The dropdown menu gives options on how fast the shipping should be.
+                The radial buttons allow the users to select how they want to pay. 
+                Had to copy and paste the code because my original version was acting up with the radial buttons.
+                The comments section allows the user to type their thoughts on the site.
+                The checkboxes are options for the user to adjust if needed.
+             -->
         </form>
     </body>
 </html>
